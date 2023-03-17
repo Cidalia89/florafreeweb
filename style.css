@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(225, 205, 205, 0.557), rgba(0, 0, 0, 1.00)), url(cfg9.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    ;
+}
+.logo {
+    font-size: 36px;
+    color: rgb(242, 5, 5);
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    color: blue;
+    text-transform: uppercase;
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+#Footer{
+	position		: repeat;
+	height			: 20px;
+	padding			: 20px;
+	width			: 1300px;
+	left			:40;
+	background-color:   silver  ;
+	color			:   #232221  ;
+	text-align		: center;
+}
+
+.navbar ul li:hover::after { 
+    width: 100%;
+}
+.badan {
+    position		: repeat;
+	height			: 70px;
+	padding			: 20px;
+	width			: 150px;
+	left			: 50%;
+	background-color:  silver ;
+	color			:   brown  ;
+	text-align		: left;
+}
+.Content {
+    top: 55%;
+    width: 90%;
+    height: 90;
+    text-align: left;
+    color: rgb(43, 2, 2);
+    background-color: antiquewhite;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.Content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 200%;
+    color: maroon;
+    
+}
+.Content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 20px;
+    color: crimson;
+    
+}
+button {
+    color : royalblue;
+    text-transform: uppercase;
+}
+.Content h1 {
+    font-size: 40px;
+    background-font: rgb(163, 163, 163);
+    position: relative;
+}
+.Content li a {
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    position: relative;
+    background-color: azure;
+    text-align: center;
+    
+}
+
+.Content .hau_nia_profile img{
+    padding: 0px;
+    width           : 100px;
+	height			:200px;
+	padding			: 10px;
+	background-color:  silver ;
+	color			:   brown  ;
+}
+
+.text{
+    top: 50%;
+    width: 50%;
+    height: 30%;
+    text-align: left;
+    color: rgb(43, 2, 2);
+    background-color:white;
+    position: absolute;
+    transform: translateY(-60%);
+}
+.text h1 {
+    height: 20%;
+    font-size: 70px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 200%;
+    color:black;
+    background-color: indianred;
+}
+.text li a {
+    color: red;
+    text-transform: uppercase;
+    position: relative;
+    background-color: transparent;
+    text-align: center;
+}
